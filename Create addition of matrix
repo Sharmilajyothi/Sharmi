@@ -1,0 +1,40 @@
+#include<stdio.h>
+#include<conio.h>
+
+int main()
+{
+	int sum[2][2],a[2][2],b[2][2],i,j;
+    for(i=0;i<2;i++)
+    {
+    	for (j=0;j<2;j++)
+    	{
+    		printf("enter a");
+    		scanf("%d",&a[i][j]);
+		}
+	}
+	for(i=0;i<2;i++)
+    {
+    	for (j=0;j<2;j++)
+    	{
+    		printf("enter b");
+    		scanf("%d",&b[i][j]);
+		}
+	}
+	for(i=0;i<2;i++)
+    {
+    	for (j=0;j<2;j++)
+    	{
+    		sum[i][j] = a[i][j] + b[i][j];
+    	}
+	}
+
+	for(i=0;i<2;i++)
+    {
+    	for (j=0;j<2;j++)
+    	{
+    		printf("%d ",sum[i][j]);
+		}
+		printf("\n");
+	}
+	return 0;
+}
