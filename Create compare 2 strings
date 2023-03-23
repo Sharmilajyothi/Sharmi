@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+	char a[1000] = "fisherman", b[1000] = "fisheran";
+	int com;
+	com = strcmp(a,b);
+	printf("%d",com);
+	return 0;
+}
