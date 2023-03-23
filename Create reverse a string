@@ -1,0 +1,9 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+	char a[1000] = "fisherman";
+	printf("%s",strrev(a));
+	return 0;
+}
