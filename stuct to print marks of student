@@ -1,0 +1,21 @@
+#include<stdio.h>
+
+struct marks{
+	int test1,test2,test3;
+} student;
+
+int main()
+{
+	printf("enter the marks of test1 =");
+	scanf("%d",&student.test1);
+	printf("enter the marks of test2 =");
+	scanf("%d",&student.test2);
+	printf("enter the marks of test3 =");
+	scanf("%d",&student.test3);
+
+	printf("the marks of test1 for student are %d \n",student.test1);
+	printf("the marks of test2 for student are %d \n",student.test2);
+	printf("the marks of test3 for student are %d \n",student.test3);
+
+	return 0;
+}
