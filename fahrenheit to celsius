@@ -1,0 +1,9 @@
+#include<stdio.h>
+#define f 40
+int main()
+{
+	float c;
+	c=(f-32)/1.8;
+	printf("fahrenheit to celsius:%f",c);
+	return 0;
+}
